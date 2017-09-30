@@ -1,8 +1,8 @@
 import React from 'react';
-import ToDoList  from './ToDoList'
+import FruitVegetable  from './FruitVegetable'
 const App = () => (
     <div>
-    <ToDoList/>
+    <FruitVegetable/>
     </div>
 );
 

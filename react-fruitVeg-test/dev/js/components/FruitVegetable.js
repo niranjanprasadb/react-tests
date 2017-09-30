@@ -33,10 +33,6 @@ export default class FruitVegetable extends Component {
     }
   }
 
-
-
-
-
   render() {
     console.log("FruitVegetable");
 
