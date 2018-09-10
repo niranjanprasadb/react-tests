@@ -1,0 +1,11 @@
+.Slider {
+  display: flex;
+  flex-direction: row;
+  padding-top: 15px;
+}
+
+.SliderLabel {
+  font-weight: bold;
+  font-size: 12px;
+  color:#0e7459;
+}

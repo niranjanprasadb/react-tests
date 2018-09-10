@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import './../../styles/Money.css';
+import './../styles/Money.css';
 
 class Money extends Component {
   render() {

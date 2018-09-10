@@ -1,19 +1,21 @@
 import React, { Component } from 'react';
-import Money from './Common/Money';
-import Age from './Common/Age';
+import BillsSlider from './BillsSlider';
+import MortgageSlider from './MortgageSlider';
+import GeneralSpendingSlider from './GeneralSpendingSlider';
 
-import './../styles/Income.css';
+import './../styles/Savings.css';
 
 class Savings extends Component {
   render() {
     return (
-        <div className="Income">
-          <div className="IncomeLabel">Annual Income</div>
-          <div className="moneyAgeContainer">
-              <Money moneyLabel="Annual salary:"/>
-              <Age ageLabel="From age:"/>
-              <Age ageLabel="To age:"/>
-          </div>
+        <div className="">
+          <div className="SpendLess">Try reducing your monthly spending to see how your forecast could improve</div>
+          <MortgageSlider/>
+          <BillsSlider/>
+          <GeneralSpendingSlider/>
+          <div className="TotalSavings">This means you are saving xyz per month</div>
+          <div className="FindWays">Find ways to save</div>
+          <div className="ThumbsUpDown">Was this helpful?</div>
         </div>
     );
   }

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import './../../styles/Age.css';
+import './../styles/Age.css';
 
 class Age extends Component {
   render() {

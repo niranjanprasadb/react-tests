@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Money from './Common/Money';
-import Age from './Common/Age';
+import Money from './Money';
+import Age from './Age';
 
 import './../styles/Income.css';
 

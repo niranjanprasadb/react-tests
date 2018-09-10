@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Income from './components/Income';
 import Spending from './components/Spending';
 import Savings from './components/Savings';
+
 import './styles/App.css';
 
 class App extends Component {

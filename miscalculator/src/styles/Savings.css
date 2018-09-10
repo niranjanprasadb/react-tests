@@ -1,0 +1,25 @@
+.SpendLess {
+  font-size: 10px;
+  color:#699ba8;
+  padding-top: 9px;
+}
+
+.TotalSavings {
+  font-weight: bold;
+  font-size: 12px;
+  color:#0e7459;
+  padding-top: 15px;
+}
+
+.FindWays {
+  font-weight: bold;
+  font-size: 12px;
+  padding-top: 15px;
+  color:#90cb48;
+}
+
+.ThumbsUpDown {
+  padding-top: 15px;
+  font-size: 10px;
+  color:#0e7459;
+}
