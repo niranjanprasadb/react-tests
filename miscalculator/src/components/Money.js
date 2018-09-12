@@ -7,7 +7,7 @@ class Money extends Component {
     return (
       <div className="Money">
         <div>{this.props.moneyLabel}</div>
-        <input type="text" size="10"/>
+        <div className="MoneyText"><input type="text" size="10"/></div>
       </div>
     );
   }

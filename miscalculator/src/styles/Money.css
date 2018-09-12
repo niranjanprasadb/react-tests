@@ -1,3 +1,9 @@
 .Money{
   padding-right: 10px;
 }
+
+.MoneyText input{
+  border: 1px solid #0e7459;
+  border-radius: 5px;
+  padding:2px;
+}
