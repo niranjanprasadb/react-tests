@@ -12,7 +12,7 @@ class Savings extends Component {
           <SpendingSlider sliderLabel="Bills"/>
           <SpendingSlider sliderLabel="General spending"/>
           <div className="TotalSavings">This means you are saving xyz per month</div>
-          <div className="FindWays">Find ways to save</div>
+          <div className="FindWaysContainer"><div className="FindWays">Find ways to save</div></div>
           <div className="ThumbsUpDown">Was this helpful?</div>
         </div>
     );

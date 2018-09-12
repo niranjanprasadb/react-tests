@@ -20,15 +20,25 @@
   padding-left: 9px;
 }
 
+.FindWaysContainer {
+  border: 1px solid #90cb48;
+  border-radius: 5px;
+  margin-top: 9px;
+  margin-left: 28px;
+  margin-right: 25px;
+  padding-left: 46px;
+}
 .FindWays {
+  color:#90cb48;
   font-weight: bold;
   font-size: 12px;
-  padding-top: 15px;
-  color:#90cb48;
-}
+  padding-top: 9px;
+  padding-bottom: 9px;
+  }
 
 .ThumbsUpDown {
-  padding-top: 15px;
   font-size: 10px;
   color:#0e7459;
+  padding-top: 15px;
+  padding-left: 100px;
 }
