@@ -6,7 +6,7 @@ class Money extends Component {
 
   constructor(props) {
     super();
-    this.state = {amount:0}
+    this.state = {amount:props.amount}
     this.handleChange = this.handleChange.bind(this);
   }
 

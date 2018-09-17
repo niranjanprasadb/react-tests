@@ -28,7 +28,7 @@ class SpendingSlider extends Component {
     return (
         <div className="Slider">
           <div className="SliderLabel">{this.props.sliderLabel}</div>
-          <Slider min={0} handle={handle} />
+          <Slider min={0} max={this.props.amount*10} handle={handle} defaultValue={this.props.amount}/>
         </div>
     );
   }

@@ -9,7 +9,7 @@ class Savings extends Component {
     let expenditures = this.props.expenditures, expenditureSliders = [];
     expenditures.forEach((expenditure, index) => {
       expenditureSliders.push(
-        <SpendingSlider key={index} sliderLabel={expenditure.name}/>
+        <SpendingSlider key={index} sliderLabel={expenditure.name} amount={expenditure.amount}/>
       )
     })
     return (
