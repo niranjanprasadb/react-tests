@@ -7,7 +7,7 @@ class Age extends Component {
     return (
       <div className="Age">
         <div>{this.props.ageLabel}</div>
-        <div className="AgeText"><input type="text" size="5"/></div>
+        <div className="AgeText"><input type="text" size="5" value={this.props.age}/></div>
       </div>
     );
   }
